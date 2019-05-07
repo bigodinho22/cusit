@@ -1,0 +1,56 @@
+*{
+	font-family:Monospace;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+	height:40px;
+}
+article{
+	height:420px;
+}
+nav{
+	height:40px;
+}
+body{
+	height:100%;
+	width:98.6%;
+	background: linear-gradient(to right, black, #1C0220);
+}
+input{
+	margin-left: 45.6%;
+	width: 8%;
+	height: 40px;
+}
+h1{
+	color:white;
+	text-align: center;
+}
+.menu li{
+	display: inline;
+	list-style: none;
+	margin-left: 10%;
+	padding: 3%;
+	color: white;
+}
+.menu a{
+	text-decoration: none;
+	color:white;
+}
+p{
+	color:white;
+	text-align: center;
+}
+a:active{
+	border: solid 1px white;
+}
+.paginaAtual{
+	border: solid 1px white
+}
+.img{
+	height: 80%;
+	width: 45%;
+	margin-left: 27%;
+}
