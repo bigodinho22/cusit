@@ -34,9 +34,9 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-                                <li {{ request()->routeIs('index')?'current':'' }}><a href="{{ route("index") }}">Home</a></li>
-								<li>
-									<a href="sobre.html">Sobre</a>	
+                                <li class='{{ request()->routeIs('index')?'current':'' }}'><a href="{{ route("index") }}">Home</a></li>
+								<li class='{{ request()->routeIs('sobre')?'current':'' }}'>
+									<a href="{{ route("sobre") }}">Sobre</a>	
 								</li>
 								<li>
 									<a href="contato.html">Contato</a>

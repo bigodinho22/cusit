@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'CusitController@index')->name('index');
+Route::get('/sobre', 'CusitController@sobre')->name('sobre');
