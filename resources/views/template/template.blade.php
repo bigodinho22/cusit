@@ -38,8 +38,8 @@
 								<li class='{{ request()->routeIs('sobre')?'current':'' }}'>
 									<a href="{{ route("sobre") }}">Sobre</a>	
 								</li>
-								<li>
-									<a href="contato.html">Contato</a>
+								<li class='{{ request()->routeIs('contato')?'current':'' }}'>
+									<a href="{{ route("contato") }}">Contato</a>
 								</li>
 								<li>
 									<a href="comentar.html">Comentar</a>

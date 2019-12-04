@@ -13,4 +13,8 @@ class CusitController extends Controller
     public function sobre(){
         return view('sobre');
     }
+
+    public function contato(){
+        return view('contato');
+    }
 }
