@@ -41,8 +41,8 @@
 								<li class='{{ request()->routeIs('contato')?'current':'' }}'>
 									<a href="{{ route("contato") }}">Contato</a>
 								</li>
-								<li>
-									<a href="comentar.html">Comentar</a>
+								<li class='{{ request()->routeIs('comentar')?'current':'' }}'>
+									<a href="{{ route("comentar") }}">Comentar</a>
 								</li>
 								<li>
 									<a href="login.php">Administração</a>

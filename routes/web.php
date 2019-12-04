@@ -14,3 +14,6 @@
 Route::get('/', 'CusitController@index')->name('index');
 Route::get('/sobre', 'CusitController@sobre')->name('sobre');
 Route::get('/contato', 'CusitController@contato')->name('contato');
+Route::get('/comentar', 'CusitController@comentar')->name('comentar');
+Route::get('/sucesso', 'CusitController@sucesso')->name('sucesso');
+Route::post('/comentar', 'CusitController@comentar_form')->name('comentar_form');
